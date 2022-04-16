@@ -1,0 +1,64 @@
+
+.container1 , .container2{
+    background-color: rgb(63, 63, 63);
+    
+}
+.container1 a:hover , .container2 a:hover {
+    background-color: rgb(122, 117, 117);
+}
+.bouton  a:hover{
+    background-color: rgb(122, 117, 117);
+}
+
+.carousel-item{
+    height: 100%;
+    
+}
+
+.container2{
+    display: block;
+    width: 100%;
+}
+
+.logo img {
+    position: absolute;
+    left: 50%;
+    top:2px;
+    max-height: 50px;
+}
+
+
+
+@media only screen and (min-width: 990px) {
+
+    .liennav{
+        text-align: center;
+    }
+
+    .nav-item {  
+        display: none;
+        text-align: center;
+        position: relative;
+        top: 50px;
+        columns: 12;
+        background-color: red;
+
+    }
+    .nav-item a{
+        display: inline-flex;
+        align-items: stretch ;
+        text-decoration: none;
+        align-items: center;
+        left: 50%;
+    } 
+}
+
+
+
+@media only screen and (max-width: 990px) {
+    .hidden{
+        display: none;
+        visibility: hidden;
+    }
+
+}
