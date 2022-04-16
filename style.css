@@ -9,9 +9,11 @@
 .bouton  a:hover{
     background-color: rgb(122, 117, 117);
 }
+a:link{
+    text-decoration: none;
+}
 
 .carousel-item{
-    height: 100%;
     
 }
 
@@ -60,5 +62,7 @@
         display: none;
         visibility: hidden;
     }
+
+
 
 }
