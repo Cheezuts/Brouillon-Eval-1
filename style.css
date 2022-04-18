@@ -32,6 +32,7 @@ a:link{
     left: 50%;
     top:2px;
     max-height: 50px;
+    transform: translate(-50%, 0%);
 }
 
 @media screen and (min-width: 992px) {
@@ -39,4 +40,14 @@ a:link{
         height: 95vh ;
         
     }
+
+    #navbarToggleExternalContent {
+        display: none;
+    }
+}
+
+#navbarToggleExternalContent {
+    position: fixed;
+    z-index: 200;
+    width: 100%;
 }
