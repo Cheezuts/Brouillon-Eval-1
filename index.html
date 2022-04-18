@@ -11,27 +11,73 @@
     <title>Doc</title>
 </head>
 <body>
-<header>
-  <!-- Navbar [Début] -->
+<!-- Navbar [Début] -->
 
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(63, 63, 63);;">
-    <div class="container1 container-fluid">
-      
-  
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fa-solid fa-bars text-white">
-          <br>
+<nav class="navtest navbar navbar-expand-lg  navbar-light sticky-top" style="background-color: rgb(63, 63, 63);">
+  <div class="container1 container-fluid">
+    <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa-solid fa-bars text-white">
+       <br>
           <div style="font-size: x-small">
             Menu
           </div>
-        </i>
-      </button>
-      <a class="logo" href="index.html">
-        <img src="images-eval/logo-chichiland.png" /> 
-      </a>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav" style="flex-direction:row;flex-wrap:wrap;justify-content: space-around;">
-  
+      </i>
+    </button>
+<!-- Liens[Début]-->
+    <div class="row text-white d-none d-lg-flex">
+      <div class="nav-item col-3 text-center">
+          <a href="index.html" class="text-white">Accueil</a>
+        </div>
+        <div class="nav-item col-3 text-center">
+          <a href="#" class="text-white">section 2</a>
+        </div>
+        <div class="nav-item col-3 text-center ">
+          <a href="#" class="text-white">section 3</a>
+        </div>
+        <div class="nav-item col-3 text-center">
+          <a href="evenement.html" class="text-white">Evenements</a>
+        </div>
+    </div>
+<!-- Liens[Fin]-->
+    <a class="logo" href="index.html">
+      <img src="images-eval/logo-chichiland.png"/> 
+    </a>
+<!-- icones[Début]-->
+    <div class="row text-white d-none d-lg-flex">
+      <div class="nav-item active col-3 col-md-3 col-lg-3 text-center">
+          <a href="https://fr-fr.facebook.com" class="btn">
+            <i class="fa-brands fa-facebook-f text-white"></i>
+          </a>      
+      </div>
+
+      <div class="nav-item  col-3 col-md-3 col-lg-3 text-center">
+          <a href="https://twitter.com" class="btn">
+            <i class="fa-brands fa-twitter text-white"></i>
+          </a>  
+      </div>
+
+      <div class="nav-item  col-3 col-md-3 col-lg-3 text-center">
+          <a href="https://youtube.com" class="btn">
+            <i class="fa-brands fa-youtube text-white"></i>
+          </a>      
+      </div>
+
+      <div class="nav-item  col-3 col-md-3 col-lg-3 text-center">
+          <a href="https://instagram.com" class="btn">
+            <i class="fa-brands fa-instagram text-white"></i>
+          </a>
+      </div>
+    </div>
+<!-- icones[Fin]-->
+
+  </div>
+</nav>
+<!--Bouton Menu [Début]-->
+<div class="collapse" id="navbarToggleExternalContent">
+  <div class="bg-light shadow-3">
+      <div class="row " style="background-color: rgb(63, 63, 63);">
           <div class="nav-item active col-3 col-md-3 col-lg-3 text-center">
               <a href="https://fr-fr.facebook.com" class="btn">
                 <i class="fa-brands fa-facebook-f text-white"></i>
@@ -55,8 +101,10 @@
                 <i class="fa-brands fa-instagram text-white"></i>
               </a>
           </div>
+      </div>
+      <div class="row" style="background-color: rgb(63, 63, 63);">
           <div class="nav-item col-3 text-center">
-            <a href="#" class="text-white">Présentation</a>
+            <a href="index.html" class="text-white">Accueil</a>
           </div>
           <div class="nav-item col-3 text-center">
             <a href="#" class="text-white">section 2</a>
@@ -65,15 +113,14 @@
             <a href="#" class="text-white">section 3</a>
           </div>
           <div class="nav-item col-3 text-center">
-            <a href="evenement.html" class="text-white">Evenements</a>
+            <a href="#" class="text-white">section 4</a>
           </div>
       </div>
-    </div>
-  </nav>
-  <br>
-  <br>
-    <!-- Navbar [Fin] -->
-</header>
+  </div>
+  <!--Bouton Menu [Fin]-->
+
+</div>
+  <!-- Navbar [Fin] -->
 
 
 <!-- Carousel [Début] -->
@@ -112,50 +159,7 @@
   </button>
 </div>
 <!-- Carousel [Fin]-->
-<!--
-<div class="col-12 col-md-12 col-lg-12  text-center" style="background-color: rgb(63, 63, 63);">
-  <a class="" href="#"><img src="images-eval/logo-chichiland.png" style="height: 70px;"></a>
-</div>
-<!-- Phase de test hidding [Début]-->
-<div class="hidden" style="background-color:rgb(63, 63, 63)">
-  
 
-  <div class="row">
-    <div class="col-3 text-center">
-      <a href="https://fr-fr.facebook.com" class="btn">
-        <i class="fa-brands fa-facebook-f text-white"></i>
-      </a>
-    </div>
-    <div class="col-3 text-center">
-      <a href="https://twitter.com" class="btn">
-        <i class="fa-brands fa-twitter text-white"></i>
-      </a>
-    </div>
-    <div class="col-3 text-center">
-      <a href="https://youtube.com" class="btn">
-        <i class="fa-brands fa-youtube text-white"></i>
-      </a>
-    </div>
-    <div class="col-3 text-center">
-      <a href="https://instagram.com" class="btn">
-        <i class="fa-brands fa-instagram text-white"></i>
-      </a>
-    </div>
-    <div class="col-3 text-center">
-      <a href="#" class="text-white">Présentation</a>
-    </div>
-    <div class="col-3 text-center">
-      <a href="#" class="text-white">section 2</a>
-    </div>
-    <div class="col-3 text-center ">
-      <a href="#" class="text-white">section 3</a>
-    </div>
-    <div class="col-3 text-center">
-      <a href="#" class="text-white">section 4</a>
-    </div>
-  </div>
-</div>
-<!-- Phase de test hidding [Fin]-->
 
 <!-- Main [Début]-->
 <main class="container">
